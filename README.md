@@ -1,50 +1,57 @@
-﻿# AI Trading System  # Update this name
+﻿# AI Trading System
 
-## Setup Instructions
+An AI-powered trading system built with Python and React, focusing on automated market analysis and trading strategies.
 
-1. Install Python dependencies:
-   `ash
-   pip install -r requirements.txt
-   `
+## Features
 
-2. Install Node.js dependencies:
-   `ash
-   cd frontend
-   npm install
-   `
+- Real-time market data visualization
+- Technical analysis tools
+- AI-driven trading strategies
+- Backtesting capabilities
+- Risk management system
 
-3. Set up environment variables:
-   - Copy .env.example to .env
-   - Add your Alpha Vantage API key
+## Tech Stack
 
-4. Start the development servers:
-   
-   Backend:
-   `ash
-   python backend/src/main.py
-   `
+- **Frontend**: React, Vite, TailwindCSS, Lightweight Charts
+- **Backend**: Python, FastAPI
+- **Data Sources**: Yahoo Finance, Alpha Vantage
+- **ML/AI**: TensorFlow, Scikit-learn
 
-   Frontend:
-   `ash
-   cd frontend
-   npm run dev
-   `
+## Setup
 
-## Project Structure
+1. Clone the repository:
+```bash
+git clone https://github.com/rmeason/ai-trading-system.git
+cd ai-trading-system
+```
 
-- /backend - Python backend
-  - /src - Source code
-  - /tests - Test files
-  - /database - SQLite database
+2. Set up Python environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-- /frontend - React frontend
-  - /src - Source code
-  - /public - Static files
+3. Set up Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## Available Scripts
+4. Configure environment variables:
+- Copy `.env.example` to `.env`
+- Add your API keys and configuration
 
-- 
-pm run dev - Start frontend development server
-- 
-pm run build - Build frontend for production
-- python -m pytest - Run backend tests
+## Development
+
+- Frontend runs on: http://localhost:5173
+- Backend runs on: http://localhost:5000
+
+## License
+
+MIT
+
+## Contributing
+
+Feel free to submit issues and pull requests.
