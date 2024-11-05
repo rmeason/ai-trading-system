@@ -1,4 +1,4 @@
-﻿# AI Trading System
+﻿# AI Trading System  # Update this name
 
 ## Setup Instructions
 
